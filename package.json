@@ -1,0 +1,32 @@
+{
+  "name": "blueverse",
+  "version": "1.0.0",
+  "description": "Automatización de Blueverse",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx codeceptjs run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exe1127/Blueverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exe1127/Blueverse/issues"
+  },
+  "homepage": "https://github.com/exe1127/Blueverse#readme",
+  "devDependencies": {
+    "codeceptjs": "^3.3.7"
+  },
+  "dependencies": {
+    "@codeceptjs/configure": "^0.10.0",
+    "@codeceptjs/examples": "^1.2.1",
+    "@codeceptjs/ui": "^0.4.7",
+    "allure-commandline": "^2.20.1",
+    "webdriverio": "^8.3.5"
+  }
+}
